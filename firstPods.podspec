@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 	s.ios.deployment_target = '7.0'
 	s.requires_arc		= true
 	s.frameworks		= 'Foundation', 'UIkit'
-
+	s.source_files = 'firstPods/*.{h,m}'
 end
